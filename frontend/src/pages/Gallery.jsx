@@ -121,8 +121,12 @@ function GalleryPage() {
                   loading="lazy"
                 />
                 <div className="absolute inset-0 flex flex-col justify-end bg-black/0 p-4 text-left text-white opacity-0 transition-all duration-300 group-hover:bg-black/60 group-hover:opacity-100">
-                  <p className="text-sm font-bold leading-tight">{item.caption[language]}</p>
-                  <p className="mt-1 text-xs font-medium text-slate-300">{item.date[language]}</p>
+                  <p className="text-sm font-bold leading-tight">
+                    {item.caption[language]}
+                  </p>
+                  <p className="mt-1 text-xs font-medium text-slate-300">
+                    {item.date[language]}
+                  </p>
                 </div>
               </button>
             ))}
@@ -149,15 +153,22 @@ function GalleryPage() {
             &times;
           </button>
 
-          <div className="flex max-h-full max-w-5xl flex-col items-center" onClick={(e) => e.stopPropagation()}>
+          <div
+            className="flex max-h-full max-w-5xl flex-col items-center"
+            onClick={(e) => e.stopPropagation()}
+          >
             <img
               src={activeItem.src}
               alt={activeItem.caption[language]}
               className="max-h-[80vh] w-auto rounded-xl object-contain shadow-2xl"
             />
             <div className="mt-4 text-center">
-              <p className="text-lg font-bold text-white">{activeItem.caption[language]}</p>
-              <p className="mt-1 text-sm text-slate-400">{activeItem.date[language]}</p>
+              <p className="text-lg font-bold text-white">
+                {activeItem.caption[language]}
+              </p>
+              <p className="mt-1 text-sm text-slate-400">
+                {activeItem.date[language]}
+              </p>
             </div>
           </div>
         </div>
