@@ -1,14 +1,16 @@
+import { Link } from "react-router-dom";
 import logoLeft from "../assets/Images/logo.jpg";
 import logoRight from "../assets/Images/logo2.jpg";
 import { useLanguage } from "../context/LanguageContext";
 import { FiCalendar, FiGlobe } from "react-icons/fi";
 
 const navItems = [
-  { key: "home", id: "home" },
-  { key: "about", id: "about" },
-  { key: "gallery", id: "gallery" },
-  { key: "announcement", id: "announcements" },
-  { key: "contact", id: "contact" },
+  { key: "home", path: "/" },
+  { key: "about", path: "/about" },
+  { key: "gallery", path: "/gallery" },
+  { key: "announcement", path: "/announcements" },
+  { key: "contact", path: "/contact" },
+  { key: "woreda", path: "/woreda" },
 ];
 
 function formatDate(language) {
@@ -55,16 +57,10 @@ export default function Navbar() {
 
           <div className="text-center leading-tight font-sans lg:mt-0">
             <p
-              lang="en"
+              lang={language}
               className="font-en text-lg font-extrabold text-white sm:text-5xl lg:text-5xl mt-5"
             >
-              Arada Sub-City Labour and Skills Office
-            </p>
-            <p
-              lang="am"
-              className="font-sans mt-8 text-sm font-semibold text-white sm:text-3xl lg:text-4xl"
-            >
-              የአራዳ ክፍለ ከተማ ስራና ክህሎት ጽ/ቤት
+              {copy.title}
             </p>
           </div>
 
@@ -84,17 +80,13 @@ export default function Navbar() {
       >
         <div className="mx-auto flex w-full max-w-7xl flex-wrap items-center justify-center gap-2 py-3 text-sm font-semibold uppercase tracking-wide text-white sm:gap-4 lg:justify-start font-sans">
           {navItems.map((item) => (
-            <a
+            <Link
               key={item.key}
-              href={`#${item.id}`}
-              onClick={(e) => {
-                e.preventDefault();
-                window.location.hash = item.id;
-              }}
+              to={item.path}
               className="rounded-full px-4 py-2 transition-colors duration-200 hover:bg-white/15 hover:text-[#5BC5E6] focus:outline-none focus:ring-2 focus:ring-white/70 font-sans"
             >
               {copy.nav[item.key]}
-            </a>
+            </Link>
           ))}
         </div>
       </nav>

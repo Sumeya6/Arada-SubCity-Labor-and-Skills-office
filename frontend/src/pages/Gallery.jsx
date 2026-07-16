@@ -14,37 +14,55 @@ const galleryItems = [
   {
     id: 1,
     src: img1,
-    caption: { am: "የ2018 ዓ.ም የአረንጓዴ አሻራ ችግኝ ተከላ መርሃ ግብር", en: "2018 E.C. Green Legacy Tree Planting Program" },
+    caption: {
+      am: "የ2018 ዓ.ም የአረንጓዴ አሻራ ችግኝ ተከላ መርሃ ግብር",
+      en: "2018 E.C. Green Legacy Tree Planting Program",
+    },
     date: { am: "ሰኔ ፳፩ ቀን ፳፻፲፰ ዓ.ም.", en: "Jun 21, 2018 E.C." },
   },
   {
     id: 2,
     src: img2,
-    caption: { am: "የአረንጓዴ አሻራ ችግኝ ተከላ የምረቃ ስነ ስርዓት", en: "Green Legacy Planting Closing Ceremony" },
+    caption: {
+      am: "የአረንጓዴ አሻራ ችግኝ ተከላ የምረቃ ስነ ስርዓት",
+      en: "Green Legacy Planting Closing Ceremony",
+    },
     date: { am: "ሰኔ ፳፩ ቀን ፳፻፲፰ ዓ.ም.", en: "Jun 21, 2018 E.C." },
   },
   {
     id: 3,
     src: img3,
-    caption: { am: "የአረንጓዴ አሻራ ችግኝ ተከላ እንቅስቃሴ", en: "Green Legacy Tree Planting Activity" },
+    caption: {
+      am: "የአረንጓዴ አሻራ ችግኝ ተከላ እንቅስቃሴ",
+      en: "Green Legacy Tree Planting Activity",
+    },
     date: { am: "ሰኔ ፳፩ ቀን ፳፻፲፰ ዓ.ም.", en: "Jun 21, 2018 E.C." },
   },
   {
     id: 4,
     src: img4,
-    caption: { am: "የአረንጓዴ አሻራ ችግኝ ተከላ የመክፈቻ ስነ ስርዓት", en: "Green Legacy Planting Opening Ceremony" },
+    caption: {
+      am: "የአረንጓዴ አሻራ ችግኝ ተከላ የመክፈቻ ስነ ስርዓት",
+      en: "Green Legacy Planting Opening Ceremony",
+    },
     date: { am: "ሰኔ ፳፩ ቀን ፳፻፲፰ ዓ.ም.", en: "Jun 21, 2018 E.C." },
   },
   {
     id: 5,
     src: img5,
-    caption: { am: "የአረንጓዴ አሻራ ችግኝ ተከላ ፕሮግራም", en: "Green Legacy Planting Program" },
+    caption: {
+      am: "የአረንጓዴ አሻራ ችግኝ ተከላ ፕሮግራም",
+      en: "Green Legacy Planting Program",
+    },
     date: { am: "ሰኔ ፳፩ ቀን ፳፻፲፰ ዓ.ም.", en: "Jun 21, 2018 E.C." },
   },
   {
     id: 6,
     src: img6,
-    caption: { am: "የ2018 ዓ.ም የአረንጓዴ አሻራ ችግኝ ተከላ ዝግጅት", en: "2018 E.C. Green Legacy Planting Event" },
+    caption: {
+      am: "የ2018 ዓ.ም የአረንጓዴ አሻራ ችግኝ ተከላ ዝግጅት",
+      en: "2018 E.C. Green Legacy Planting Event",
+    },
     date: { am: "ሰኔ ፳፩ ቀን ፳፻፲፰ ዓ.ም.", en: "Jun 21, 2018 E.C." },
   },
 ];
@@ -54,16 +72,18 @@ function GalleryPage() {
   const [activeId, setActiveId] = useState(null);
 
   const activeItem = galleryItems.find((item) => item.id === activeId) ?? null;
-
   const close = useCallback(() => setActiveId(null), []);
 
   useEffect(() => {
     if (activeId === null) return;
+
     const handler = (e) => {
       if (e.key === "Escape") close();
     };
+
     document.addEventListener("keydown", handler);
     document.body.style.overflow = "hidden";
+
     return () => {
       document.removeEventListener("keydown", handler);
       document.body.style.overflow = "";
@@ -71,7 +91,7 @@ function GalleryPage() {
   }, [activeId, close]);
 
   return (
-    <div className="min-h-screen bg-[#F2F8FC] text-slate-900">
+    <div className="min-h-screen bg-[#F2F8FC] text-slate-900 animate-fade-up">
       <Navbar />
 
       <PageLayout>
@@ -101,12 +121,8 @@ function GalleryPage() {
                   loading="lazy"
                 />
                 <div className="absolute inset-0 flex flex-col justify-end bg-black/0 p-4 text-left text-white opacity-0 transition-all duration-300 group-hover:bg-black/60 group-hover:opacity-100">
-                  <p className="text-sm font-bold leading-tight">
-                    {item.caption[language]}
-                  </p>
-                  <p className="mt-1 text-xs font-medium text-slate-300">
-                    {item.date[language]}
-                  </p>
+                  <p className="text-sm font-bold leading-tight">{item.caption[language]}</p>
+                  <p className="mt-1 text-xs font-medium text-slate-300">{item.date[language]}</p>
                 </div>
               </button>
             ))}
@@ -133,22 +149,15 @@ function GalleryPage() {
             &times;
           </button>
 
-          <div
-            className="flex max-h-full max-w-5xl flex-col items-center"
-            onClick={(e) => e.stopPropagation()}
-          >
+          <div className="flex max-h-full max-w-5xl flex-col items-center" onClick={(e) => e.stopPropagation()}>
             <img
               src={activeItem.src}
               alt={activeItem.caption[language]}
               className="max-h-[80vh] w-auto rounded-xl object-contain shadow-2xl"
             />
             <div className="mt-4 text-center">
-              <p className="text-lg font-bold text-white">
-                {activeItem.caption[language]}
-              </p>
-              <p className="mt-1 text-sm text-slate-400">
-                {activeItem.date[language]}
-              </p>
+              <p className="text-lg font-bold text-white">{activeItem.caption[language]}</p>
+              <p className="mt-1 text-sm text-slate-400">{activeItem.date[language]}</p>
             </div>
           </div>
         </div>

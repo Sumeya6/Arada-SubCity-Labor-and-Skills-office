@@ -1,27 +1,28 @@
-import { useState, useEffect } from "react";
-import HomePage from "./pages/Home";
-import GalleryPage from "./pages/Gallery";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Announcements from "./pages/Announcements";
+import Contact from "./pages/Contact";
+// import Services from "./pages/Services";
+import Gallery from "./pages/Gallery";
+import Woreda from "./pages/Woreda";
+import NotFound from "./pages/NotFound";
 
 function App() {
-  const [page, setPage] = useState(() => {
-    const hash = window.location.hash.slice(1) || "home";
-    return hash;
-  });
-
-  useEffect(() => {
-    const onHashChange = () => {
-      setPage(window.location.hash.slice(1) || "home");
-    };
-    window.addEventListener("hashchange", onHashChange);
-    return () => window.removeEventListener("hashchange", onHashChange);
-  }, []);
-
-  switch (page) {
-    case "gallery":
-      return <GalleryPage />;
-    default:
-      return <HomePage />;
-  }
+  return (
+    <div className="App">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        {/* <Route path="/services" element={<Services />} /> */}
+        <Route path="/announcements" element={<Announcements />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/woreda" element={<Woreda />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </div>
+  );
 }
 
 export default App;

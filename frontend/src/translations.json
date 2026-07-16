@@ -5,9 +5,103 @@
       "about": "ስለ እኛ",
       "gallery": "ፎቶ ጋለሪ",
       "announcement": "ማስታወቂያዎች",
-      "contact": "ያግኙን"
+      "contact": "ያግኙን",
+      "woreda": "ወረዳ"
     },
-    "title": "የአራዳ ክፍለ ከተማ ስራና ክህሎት ጽ/ቤት",
+    "title": "የአራዳ ክ/ከተማ ስራና ክህሎት ጽ/ቤት",
+    "about": {
+      "title": "ስለ እኛ",
+      "vision": {
+        "title": "ራዕይ",
+        "description": "በአዲስ አበባ ከተማ አስተዳደር በ2022 ዓ.ም ብቁና ተወዳዳሪ የሰው ኃይል በማፍራት ምቹ የስራ ሁኔታ የተረጋገጠበት ዘላቂ የስራ ዕድል ተፈጥሮ ማየት፡፡"
+      },
+      "mission": {
+        "title": "ተልዕኮ",
+        "description": "ክህሎት መር የውጤት ተኮር የስልጠና ስርዓት በመዘርጋት ብቁ ተወዳዳሪና ስራ ፈጣሪ የሰው ኃይል በማፍራት፣ለኢንተርፕራይዞች ድጋፍ በማድረግ ማልማት እንዲሁም ውጤታማ የሆነ የስራ ስምሪት አገልግሎት በመስጠትና የኢንዱስትሪውን ሰላም በማረጋገጥ፣በዝቅተኛ የኑሮ ደረጃ ላይ የሚገኙ ነዋሪዎችን ኑሮ በማሻሻል፣ የአሰሪና ሰራተኛ ግንኙነትን ጤናማ በማድረግ፣የስራ አጥ ቁጥር ለመቀነስ የሚያስችል ተቋም በመገንባት፣ ዘላቂ የስራ እድል እንዲፈጠር ማድረግ።"
+      },
+      "values": {
+        "title": "እሴቶች",
+        "items": [
+          "የስራ ባሕል ማዳበር",
+          "ሙያዊ ልህቀት",
+          "ጥራትና ተደራሽነት",
+          "አዳዲስ ፈጠራ ማመንጨት",
+          "ለለውጥ ዝግጁ መሆን",
+          "አካታችነት",
+          "አገልጋይነት",
+          "ታማኝነት"
+        ]
+      }
+    },
+    "contact": {
+      "title": "ያግኙን",
+      "breadcrumb": ["መነሻ", "ያግኙን"],
+      "hero_description": "ለማንኛውም ጥያቄ፣ አስተያየት ወይም የአገልግሎት ጥያቄ በቀጥታ ማግኘት ይችላሉ።",
+      "send_message_title": "መልዕክት ላክ / Send a Message",
+      "cards": {
+        "address": {
+          "title": "አድራሻ",
+          "description": "አራዳ ክፍለ ከተማ ሠራተኛና ክህሎት ጽሕፈት ቤት\nአዲስ አበባ፣ ኢትዮጵያ"
+        },
+        "phone": {
+          "title": "ስልክ",
+          "description": "+251 11 123 4567\n+251 11 123 4568"
+        },
+        "email": {
+          "title": "ኢሜይል",
+          "description": "info@aradalaborskills.gov.et"
+        },
+        "working_hours": {
+          "title": "የሥራ ሰዓት",
+          "description": "ሰኞ - ዓርብ\nከጠዋቱ 2:30 እስከ 11:30"
+        }
+      },
+      "form": {
+        "name": {
+          "label": "ሙሉ ስም",
+          "placeholder": "ሙሉ ስምዎን ያስገቡ"
+        },
+        "email": {
+          "label": "ኢሜይል",
+          "placeholder": "ኢሜይልዎን ያስገቡ"
+        },
+        "phone": {
+          "label": "ስልክ ቁጥር",
+          "placeholder": "+251..."
+        },
+        "subject": {
+          "label": "ርዕሰ ጉዳይ",
+          "placeholder": "ርዕሰ ጉዳዩን ያስገቡ"
+        },
+        "message": {
+          "label": "መልዕክት",
+          "placeholder": "መልዕክትዎን ይጻፉ..."
+        },
+        "error": "እባክዎ ስምዎን፣ ኢሜይልዎን እና መልዕክትዎን ከመላክዎ በፊት ያጠናቅቁ።",
+        "submit": "መልዕክት ላክ"
+      },
+      "map": {
+        "location_title": "የመገኛ ቦታ",
+        "location_description": "የአራዳ ክፍለ ከተማ\nሥራና ክህሎት ቢሮ",
+        "open_map": "ጉግል ካርታ ላይ ክፈት"
+      }
+    },
+    "announcements": {
+      "title": "ማስታወቂያዎች",
+      "breadcrumb": ["መነሻ", "ማስታወቂያዎች"],
+      "hero_description": "ከአራዳ ክፍለ ከተማ ስራና ክህሎት ቢሮ ለተዘመተ ፕሮግራሞች፣ አገልግሎቶች እና ስራ ዕድሎች መረጃ ይቀበሉ።",
+      "resources_title": "ሰነዶች እና ገገግሬዮች",
+      "download_label": "ሰነድ አውርድ",
+      "items": [
+        {
+          "id": "booklet-2018",
+          "title": "የ2018 ዓ.ም ዓላማዎች እና መመዘኛዎች",
+          "date": "2018",
+          "description": "ይህ ሰነድ የአራዳ ክፍለ ከተማ ስራና ክህሎት ቢሮ ለዓመቱ 2018 ዓ.ም ዓላማዎች፣ ፖሊሲዎች እና ፕሮግራሞች ይዟል። አሁን ያሉ የስልጠና ፕሮግራሞች እና የስራ ዕድሎች ዓላማዎች ዝርዝር ይጠቀላለሉ።",
+          "filename": "Arada Labor and Skills Booklet.docx"
+        }
+      ]
+    },
     "footer": {
       "about_title": "የአራዳ ክፍለ ከተማ ጽሕፈት ቤት",
       "about_description": "የዜጎችን የሥራና ክህሎት እድል ለማስፋት እንዲሁም ውጤታማ የኢንዱስትሪ ልማት እንዲኖር በትጋት እንሰራለን::",
@@ -59,14 +153,108 @@
       "about": "About Us",
       "gallery": "Gallery",
       "announcement": "Announcements",
-      "contact": "Contact Us"
+      "contact": "Contact Us",
+      "woreda": "Woreda"
     },
-    "title": "Arada Sub-City Labour and Skills Office",
+    "title": "Arada sub-city Labor and Skills office",
+    "about": {
+      "title": "About Us",
+      "vision": {
+        "title": "Vision",
+        "description": "To create a skilled workforce that drives sustainable economic development and improves the quality of life for all citizens in Arada Sub-City through quality training and job placement services."
+      },
+      "mission": {
+        "title": "Mission",
+        "description": "We are committed to empowering citizens through quality skills training, creating employment opportunities, and promoting productive engagement in the labor market for sustainable development."
+      },
+      "values": {
+        "title": "Values",
+        "items": [
+          "Work culture preservation",
+          "Professional excellence",
+          "Quality and accessibility",
+          "Innovation adoption",
+          "Change readiness",
+          "Inclusivity",
+          "Service-mindedness",
+          "Integrity"
+        ]
+      }
+    },
+    "contact": {
+      "title": "Contact Us",
+      "breadcrumb": ["Home", "Contact Us"],
+      "hero_description": "Reach out directly for any inquiry, feedback, or service request.",
+      "send_message_title": "Send a Message",
+      "cards": {
+        "address": {
+          "title": "Address",
+          "description": "Arada Sub-City Labour and Skills Office\nAddis Ababa, Ethiopia"
+        },
+        "phone": {
+          "title": "Phone",
+          "description": "+251 11 123 4567\n+251 11 123 4568"
+        },
+        "email": {
+          "title": "Email",
+          "description": "info@aradalaborskills.gov.et"
+        },
+        "working_hours": {
+          "title": "Working Hours",
+          "description": "Mon - Fri\n2:30 AM to 11:30 AM"
+        }
+      },
+      "form": {
+        "name": {
+          "label": "Full Name",
+          "placeholder": "Enter your full name"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Enter your email"
+        },
+        "phone": {
+          "label": "Phone Number",
+          "placeholder": "+251..."
+        },
+        "subject": {
+          "label": "Subject",
+          "placeholder": "Enter the subject"
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "Write your message..."
+        },
+        "error": "Please complete your name, email, and message before sending.",
+        "submit": "Send Message"
+      },
+      "map": {
+        "location_title": "Location",
+        "location_description": "Arada Sub-City Labour and Skills Office",
+        "open_map": "Open in Google Maps"
+      }
+    },
+    "announcements": {
+      "title": "Announcements",
+      "breadcrumb": ["Home", "Announcements"],
+      "hero_description": "Receive updates on programs, services, and job opportunities from Arada Sub-City Labour and Skills Office.",
+      "resources_title": "Documents and Resources",
+      "download_label": "Download Document",
+      "items": [
+        {
+          "id": "booklet-2018",
+          "title": "2018 Goals and Guidelines",
+          "date": "2018",
+          "description": "This document contains the 2018 goals, policies, and programs of the Arada Sub-City Labour and Skills Office.",
+          "filename": "Arada Labor and Skills Booklet.docx"
+        }
+      ]
+    },
     "footer": {
-      "about_title": "Arada Sub-City Office",
-      "about_description": "We work diligently to expand citizens' job and skills opportunities and to support effective industrial development.",
+      "about_title": "Arada Sub-City Labour and Skills Office",
+      "about_description": "We work to expand employment and skills opportunities for citizens and support sustainable industry growth.",
       "contact_title": "Contact Us",
-      "address": "Addis Ababa, Arada Sub-City, near the municipality office",
+      "address": "Addis Ababa, Arada Sub-City, Preparatory House Area",
       "phone": "+251 11 123 4567 / +251 11 123 4568",
       "email": "info@aradalabor.gov.et",
       "links_title": "Useful Links",
@@ -78,32 +266,32 @@
       "map": "Map"
     },
     "sidebar": {
-      "search_title": "Search Information",
+      "search_title": "Search Content",
       "search_placeholder": "Search...",
       "profile_title": "About the Office",
-      "profile_description": "The Arada Sub-City Labour and Skills Office works diligently to help citizens in the sub-city benefit from job opportunities and improve their skills capacity.",
-      "read_more": "Read more"
+      "profile_description": "Arada Sub-City Labour and Skills Office works to make job opportunities more accessible and improve citizens' skillsets across the sub-city.",
+      "read_more": "Read More"
     },
     "home": {
       "hero_tag": "Welcome",
-      "hero_heading": "Welcome to the Official Portal of Arada Sub-City Labour and Skills Office.",
+      "hero_heading": "Welcome to the Arada Sub-City Labour and Skills Office official website.",
       "leadership_tag": "Leadership",
-      "leadership_title": "Office Leadership Team",
+      "leadership_title": "Leadership of the Arada Sub-City Labour and Skills Office",
       "leaders": {
         "abdi_name": "Mr. Abdi Muluneh",
-        "abdi_title": "Deputy Chief Executive Officer of Arada Sub-City Administration and Head of the Labour and Skills Office",
-        "abdi_quote": "We work with commitment to ensure citizens benefit from job opportunities and to improve their skills capacity.",
+        "abdi_title": "Deputy City Administrator and Head of Labour and Skills Office",
+        "abdi_quote": "We work diligently to ensure citizens benefit from employment opportunities and that their skills are developed.",
         "sofonias_name": "Mr. Sofonias Bogale",
-        "sofonias_title": "Deputy Head of the Arada Sub-City Labour and Skills Office",
-        "sofonias_quote": "Following modern procedures to ensure industrial harmony and improve productivity is our foremost task."
+        "sofonias_title": "Deputy Head of the Labour and Skills Office",
+        "sofonias_quote": "Our priority is fostering peace and productivity through modern processes."
       },
-      "videos_title": "Featured Videos",
+      "videos_title": "Video Resources",
       "video_1_title": "Arada Sub-City Overview",
-      "video_2_title": "Labour and Skills Highlights"
+      "video_2_title": "Labour and Skills Activities"
     },
     "gallery": {
       "tag": "Photo Gallery",
-      "title": "Our Office Activities in Pictures",
+      "title": "Labour and Skills Office Activities in Pictures",
       "close": "Close"
     }
   }
