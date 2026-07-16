@@ -120,14 +120,14 @@ function HomePage() {
             <p className="mb-3 text-sm font-semibold text-slate-600">
               {t("home.video_1_title")}
             </p>
-              <VideoFrame src={videoOneSrc} title={t("home.video_1_title")} />
-            </div>
-            <div>
-              <p className="mb-3 text-sm font-semibold text-slate-600">
-                {t("home.video_2_title")}
-              </p>
-              <VideoFrame src={videoTwoSrc} title={t("home.video_2_title")} />
-            </div>
+            <VideoFrame src={videoOneSrc} title={t("home.video_1_title")} />
+          </div>
+          <div>
+            <p className="mb-3 text-sm font-semibold text-slate-600">
+              {t("home.video_2_title")}
+            </p>
+            <VideoFrame src={videoTwoSrc} title={t("home.video_2_title")} />
+          </div>
         </div>
       </section>
 
