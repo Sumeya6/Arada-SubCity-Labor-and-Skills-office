@@ -3,6 +3,7 @@
     "nav": {
       "home": "ዋና ገጽ",
       "about": "ስለ እኛ",
+      "gallery": "ፎቶ ጋለሪ",
       "announcement": "ማስታወቂያዎች",
       "contact": "ያግኙን"
     },
@@ -45,12 +46,18 @@
       "videos_title": "የቪዲዮ መረጃዎች",
       "video_1_title": "የአራዳ ክፍለ ከተማ እይታ",
       "video_2_title": "የስራና ክህሎት እንቅስቃሴ"
+    },
+    "gallery": {
+      "tag": "ፎቶ ጋለሪ",
+      "title": "የሥራና ክህሎት ጽ/ቤት እንቅስቃሴዎች በምስል",
+      "close": "ዝጋ"
     }
   },
   "en": {
     "nav": {
       "home": "Home",
       "about": "About Us",
+      "gallery": "Gallery",
       "announcement": "Announcements",
       "contact": "Contact Us"
     },
@@ -93,6 +100,11 @@
       "videos_title": "Featured Videos",
       "video_1_title": "Arada Sub-City Overview",
       "video_2_title": "Labour and Skills Highlights"
+    },
+    "gallery": {
+      "tag": "Photo Gallery",
+      "title": "Our Office Activities in Pictures",
+      "close": "Close"
     }
   }
 }
