@@ -1,1 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Ethiopic:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
+
+@layer base {
+
+    html,
+    body,
+    #root {
+        @apply antialiased text-slate-900;
+    }
+
+    html:lang(am),
+    body:lang(am),
+    #root:lang(am),
+    :lang(am) {
+        font-family: 'Noto Sans Ethiopic', Nyala, ui-sans-serif, system-ui, sans-serif;
+    }
+
+    html:lang(en),
+    body:lang(en),
+    #root:lang(en),
+    :lang(en) {
+        font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+    }
+
+    button,
+    input,
+    textarea,
+    select {
+        font-family: inherit;
+    }
+}
