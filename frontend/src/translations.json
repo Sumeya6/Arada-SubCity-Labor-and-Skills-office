@@ -21,6 +21,30 @@
       "announcements": "ማስታወቂያዎች",
       "privacy_policy": "የግላዊነት ፖሊሲ",
       "map": "ካርታ"
+    },
+    "sidebar": {
+      "search_title": "መረጃ ይፈልጉ",
+      "search_placeholder": "ፈልግ...",
+      "profile_title": "ስለ ጽሕፈት ቤቱ",
+      "profile_description": "የአራዳ ክፍለ ከተማ የሥራና ክህሎት ጽሕፈት ቤት በክፍለ ከተማው የሚገኙ ዜጎችን የሥራ ዕድል ተጠቃሚ ለማድረግ እና የክህሎት አቅማቸውን ለማሳደግ በቁርጠኝነት ይሠራል::",
+      "read_more": "ተጨማሪ ያንብቡ"
+    },
+    "home": {
+      "hero_tag": "እንኳን በደህና መጡ",
+      "hero_heading": "ወደ አራዳ ክፍለ ከተማ ስራና ክህሎት ጽ/ቤት ይፋዊ ድረ-ገጽ እንኳን በደህና መጡ::",
+      "leadership_tag": "አመራር",
+      "leadership_title": "የአራዳ ክፍለ ከተማ ስራና ክህሎት ጽ/ቤት አመራር",
+      "leaders": {
+        "abdi_name": "አቶ አብዲ ሙሉነህ",
+        "abdi_title": "የአራዳ ክፍለ ከተማ አስተዳደር ምክትል ዋና ስራ አስፈፃሚና የስራና ክህሎት ፅ/ቤት ኃላፊ",
+        "abdi_quote": "የዜጎችን የስራ ዕድል ተጠቃሚነት ለማረጋገጥና የክህሎት አቅማቸውን ለማሳደግ በቁርጠኝነት እንሰራለን።",
+        "sofonias_name": "አቶ ሶፎንያስ ቦጋሌ",
+        "sofonias_title": "የአራዳ ክፍለ ከተማ ስራና ክህሎት ፅ/ቤት ምክትል ኃላፊ",
+        "sofonias_quote": "ዘመናዊ አሰራርን በመከተል የኢንዱስትሪ ሰላምን ማስፈንና ምርታማነትን ማሳደግ ቀዳሚ ተግባራችን ነው።"
+      },
+      "videos_title": "የቪዲዮ መረጃዎች",
+      "video_1_title": "የአራዳ ክፍለ ከተማ እይታ",
+      "video_2_title": "የስራና ክህሎት እንቅስቃሴ"
     }
   },
   "en": {
@@ -45,6 +69,30 @@
       "announcements": "Announcements",
       "privacy_policy": "Privacy Policy",
       "map": "Map"
+    },
+    "sidebar": {
+      "search_title": "Search Information",
+      "search_placeholder": "Search...",
+      "profile_title": "About the Office",
+      "profile_description": "The Arada Sub-City Labour and Skills Office works diligently to help citizens in the sub-city benefit from job opportunities and improve their skills capacity.",
+      "read_more": "Read more"
+    },
+    "home": {
+      "hero_tag": "Welcome",
+      "hero_heading": "Welcome to the Official Portal of Arada Sub-City Labour and Skills Office.",
+      "leadership_tag": "Leadership",
+      "leadership_title": "Office Leadership Team",
+      "leaders": {
+        "abdi_name": "Mr. Abdi Muluneh",
+        "abdi_title": "Deputy Chief Executive Officer of Arada Sub-City Administration and Head of the Labour and Skills Office",
+        "abdi_quote": "We work with commitment to ensure citizens benefit from job opportunities and to improve their skills capacity.",
+        "sofonias_name": "Mr. Sofonias Bogale",
+        "sofonias_title": "Deputy Head of the Arada Sub-City Labour and Skills Office",
+        "sofonias_quote": "Following modern procedures to ensure industrial harmony and improve productivity is our foremost task."
+      },
+      "videos_title": "Featured Videos",
+      "video_1_title": "Arada Sub-City Overview",
+      "video_2_title": "Labour and Skills Highlights"
     }
   }
 }
