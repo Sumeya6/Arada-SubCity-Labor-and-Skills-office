@@ -60,7 +60,7 @@ function HomePage() {
   const { t } = useLanguage();
 
   return (
-    <div className="min-h-screen bg-[#F2F8FC] text-slate-900">
+    <div className="min-h-screen bg-[#F2F8FC] text-slate-900 animate-fade-up">
       <Navbar />
 
       <PageLayout>

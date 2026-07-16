@@ -16,6 +16,7 @@ export function LanguageProvider({ children }) {
   useEffect(() => {
     window.localStorage.setItem("language", language);
     document.documentElement.lang = language;
+    document.title = translations[language]?.title ?? document.title;
   }, [language]);
 
   const value = useMemo(() => {
