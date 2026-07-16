@@ -1,0 +1,50 @@
+{
+  "am": {
+    "nav": {
+      "home": "ዋና ገጽ",
+      "about": "ስለ እኛ",
+      "announcement": "ማስታወቂያዎች",
+      "contact": "ያግኙን"
+    },
+    "title": "የአራዳ ክፍለ ከተማ ስራና ክህሎት ጽ/ቤት",
+    "footer": {
+      "about_title": "የአራዳ ክፍለ ከተማ ጽሕፈት ቤት",
+      "about_description": "የዜጎችን የሥራና ክህሎት እድል ለማስፋት እንዲሁም ውጤታማ የኢንዱስትሪ ልማት እንዲኖር በትጋት እንሰራለን::",
+      "contact_title": "ያግኙን",
+      "address": "አዲስ አበባ፣ አራዳ ክፍለ ከተማ፣ ማዘጋጃ ቤት አቅራቢያ",
+      "phone": "+251 11 123 4567 / +251 11 123 4568",
+      "email": "info@aradalabor.gov.et",
+      "links_title": "ጠቃሚ ሊንኮች",
+      "home": "ዋና ገጽ",
+      "about": "ስለ እኛ",
+      "services": "አገልግሎቶች",
+      "announcements": "ማስታወቂያዎች",
+      "privacy_policy": "የግላዊነት ፖሊሲ",
+      "map": "ካርታ"
+    }
+  },
+  "en": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "announcement": "Announcements",
+      "contact": "Contact Us"
+    },
+    "title": "Arada Sub-City Labour and Skills Office",
+    "footer": {
+      "about_title": "Arada Sub-City Office",
+      "about_description": "We work diligently to expand citizens' job and skills opportunities and to support effective industrial development.",
+      "contact_title": "Contact Us",
+      "address": "Addis Ababa, Arada Sub-City, near the municipality office",
+      "phone": "+251 11 123 4567 / +251 11 123 4568",
+      "email": "info@aradalabor.gov.et",
+      "links_title": "Useful Links",
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "announcements": "Announcements",
+      "privacy_policy": "Privacy Policy",
+      "map": "Map"
+    }
+  }
+}
