@@ -6,6 +6,7 @@ import { FiCalendar, FiGlobe } from "react-icons/fi";
 const navItems = [
   { key: "home", id: "home" },
   { key: "about", id: "about" },
+  { key: "gallery", id: "gallery" },
   { key: "announcement", id: "announcements" },
   { key: "contact", id: "contact" },
 ];
@@ -86,6 +87,10 @@ export default function Navbar() {
             <a
               key={item.key}
               href={`#${item.id}`}
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.hash = item.id;
+              }}
               className="rounded-full px-4 py-2 transition-colors duration-200 hover:bg-white/15 hover:text-[#5BC5E6] focus:outline-none focus:ring-2 focus:ring-white/70 font-sans"
             >
               {copy.nav[item.key]}
