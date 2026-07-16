@@ -23,8 +23,8 @@ export default function Navbar() {
   const { language, toggleLanguage, copy } = useLanguage();
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-white/15 bg-white shadow-[0_12px_40px_rgba(11,93,167,0.12)] backdrop-blur font-sans">
-      <div className="px-4 py-2 text-sm text-[#0B5DA7] sm:px-6 lg:px-8 font-sans">
+    <header className="w-full border-b border-white/15 bg-white font-sans">
+      <div className="bg-[#F2F8FC] border-b border-slate-200/50 px-4 py-2 text-sm text-[#0B5DA7] sm:px-6 lg:px-8 font-sans">
         <div className="mx-auto flex w-full max-w-7xl items-center justify-between gap-3 font-sans">
           <div className="inline-flex items-center gap-2 font-sans font-medium tracking-wide text-[#0B5DA7]">
             <FiCalendar className="h-4 w-4" aria-hidden="true" />
@@ -46,7 +46,7 @@ export default function Navbar() {
         <div className="mx-auto grid w-full max-w-7xl grid-cols-1 items-center gap-10 lg:grid-cols-[auto_minmax(0,1fr)_auto] font-sans">
           <div className="flex justify-center lg:justify-start">
             <img
-              src={logoLeft}
+              src={logoRight}
               alt="Arada Sub-City logo"
               className="h-80 w-80 object-contain sm:h-24 sm:w-24 lg:h-28 lg:w-28"
             />
@@ -69,7 +69,7 @@ export default function Navbar() {
 
           <div className="flex justify-center lg:justify-end">
             <img
-              src={logoRight}
+              src={logoLeft}
               alt="Addis Ababa City Administration logo"
               className="h-80 w-80 object-contain sm:h-24 sm:w-24 lg:h-28 lg:w-28"
             />
@@ -78,7 +78,7 @@ export default function Navbar() {
       </div>
 
       <nav
-        className="bg-[#125aa6] px-4 sm:px-6 lg:px-8 font-sans"
+        className="sticky top-0 z-50 border-b border-[#0b4e8b]/30 bg-[#125aa6] px-4 font-sans shadow-[0_12px_40px_rgba(11,93,167,0.12)] backdrop-blur sm:px-6 lg:px-8"
         aria-label="Primary"
       >
         <div className="mx-auto flex w-full max-w-7xl flex-wrap items-center justify-center gap-2 py-3 text-sm font-semibold uppercase tracking-wide text-white sm:gap-4 lg:justify-start font-sans">
