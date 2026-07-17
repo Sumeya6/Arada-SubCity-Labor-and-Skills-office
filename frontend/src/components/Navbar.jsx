@@ -51,14 +51,14 @@ export default function Navbar() {
             <img
               src={logoRight}
               alt="Arada Sub-City logo"
-              className="h-80 w-80 object-contain sm:h-24 sm:w-24 lg:h-28 lg:w-28"
+              className="h-16 w-16 object-contain sm:h-24 sm:w-24 lg:h-28 lg:w-28"
             />
           </div>
 
           <div className="text-center leading-tight font-sans lg:mt-0">
             <p
               lang={language}
-              className="font-en text-lg font-extrabold text-white sm:text-5xl lg:text-5xl mt-5"
+              className="font-en text-2xl font-extrabold text-white sm:text-4xl lg:text-5xl mt-5"
             >
               {copy.title}
             </p>
@@ -68,22 +68,22 @@ export default function Navbar() {
             <img
               src={logoLeft}
               alt="Addis Ababa City Administration logo"
-              className="h-80 w-80 object-contain sm:h-24 sm:w-24 lg:h-28 lg:w-28"
+              className="h-16 w-16 object-contain sm:h-24 sm:w-24 lg:h-28 lg:w-28"
             />
           </div>
         </div>
       </div>
 
       <nav
-        className="sticky top-0 z-50 border-b border-[#0b4e8b]/30 bg-[#125aa6] px-4 font-sans shadow-[0_12px_40px_rgba(11,93,167,0.12)] backdrop-blur sm:px-6 lg:px-8"
+        className="sticky top-0 z-50 border-b border-[#0b4e8b]/30 bg-[#125aa6] px-2 font-sans shadow-[0_12px_40px_rgba(11,93,167,0.12)] backdrop-blur sm:px-6 lg:px-8"
         aria-label="Primary"
       >
-        <div className="mx-auto flex w-full max-w-7xl flex-wrap items-center justify-center gap-2 py-3 text-sm font-semibold uppercase tracking-wide text-white sm:gap-4 lg:justify-start font-sans">
+        <div className="mx-auto flex w-full max-w-7xl items-center justify-center gap-1 overflow-x-auto py-3 text-sm font-semibold uppercase tracking-wide text-white sm:gap-4 lg:justify-start font-sans [&::-webkit-scrollbar]:hidden">
           {navItems.map((item) => (
             <Link
               key={item.key}
               to={item.path}
-              className="rounded-full px-4 py-2 transition-colors duration-200 hover:bg-white/15 hover:text-[#5BC5E6] focus:outline-none focus:ring-2 focus:ring-white/70 font-sans"
+              className="whitespace-nowrap rounded-full px-3 py-2 text-xs transition-colors duration-200 hover:bg-white/15 hover:text-[#5BC5E6] focus:outline-none focus:ring-2 focus:ring-white/70 sm:px-4 sm:text-sm font-sans"
             >
               {copy.nav[item.key]}
             </Link>
