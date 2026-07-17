@@ -80,9 +80,9 @@ const ContactForm = () => {
   };
 
   return (
-    <section className="rounded-[20px] border border-[#DCECF7] bg-white p-6 shadow-sm sm:p-8">
+    <section className="rounded-[20px] border border-[#DCECF7] bg-white p-5 shadow-sm sm:p-8">
       <div className="mb-6 space-y-2">
-        <h2 className="text-2xl font-semibold text-[#143B69] sm:text-3xl">
+        <h2 className="text-xl font-semibold text-[#143B69] sm:text-3xl">
           {t("contact.send_message_title")}
         </h2>
       </div>
