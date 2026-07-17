@@ -34,7 +34,7 @@ const ContactInfo = () => {
     <section>
       {/* Contact Information Cards Grid */}
       <div className="overflow-hidden rounded-[20px] border border-[#DCECF7] bg-white shadow-sm">
-        <div className="grid md:grid-cols-2">
+        <div className="grid grid-cols-1 sm:grid-cols-2">
           {contactCards.map((item, index) => (
             <ContactCard key={item.title} item={item} index={index} />
           ))}

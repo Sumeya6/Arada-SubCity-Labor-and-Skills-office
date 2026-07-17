@@ -77,7 +77,7 @@ const Announcements = () => {
                   >
                     <div className="flex flex-col gap-6 sm:flex-row sm:items-start ">
                       {/* Book Image */}
-                      <div className="overflow-hidden rounded-[7px] bg-[#F8FAFC] sm:min-w-[350px] sm:max-w-[280px] sm:flex-shrink-0">
+                      <div className="overflow-hidden rounded-[7px] bg-[#F8FAFC] sm:min-w-[200px] sm:max-w-[280px] sm:flex-shrink-0">
                         <img
                           src={bookImage}
                           alt={item.title}
@@ -86,7 +86,7 @@ const Announcements = () => {
                       </div>
 
                       {/* Content */}
-                      <div className="flex flex-col justify-between gap-2 sm:flex-1 p-8">
+                      <div className="flex flex-col justify-between gap-2 sm:flex-1 p-4 sm:p-8">
                         <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
                           <div className="space-y-4">
                             <div className="inline-flex items-center rounded-full bg-[#EAF7FD] px-3 py-1 text-sm font-medium text-[#0B5AA8]">

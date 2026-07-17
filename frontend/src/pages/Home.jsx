@@ -74,7 +74,7 @@ function HomePage() {
               <span className="mb-3 inline-block rounded-full border border-[#5BC5E6]/30 bg-[#5BC5E6]/20 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-[#5BC5E6] shadow-[0_0_18px_rgba(91,197,230,0.28)]">
                 {t("home.hero_tag")}
               </span>
-              <h1 className="text-2xl font-extrabold leading-tight tracking-tight md:text-5xl">
+              <h1 className="text-xl font-extrabold leading-tight tracking-tight sm:text-3xl md:text-5xl">
                 {t("home.hero_heading")}
               </h1>
             </div>
@@ -87,7 +87,7 @@ function HomePage() {
           <p className="mb-2 text-sm font-bold uppercase tracking-widest text-[#5BC5E6]">
             {t("home.leadership_tag")}
           </p>
-          <h2 className="relative pb-4 text-3xl font-extrabold text-[#0B5DA7] md:text-4xl">
+          <h2 className="relative pb-4 text-2xl font-extrabold text-[#0B5DA7] sm:text-3xl md:text-4xl">
             {t("home.leadership_title")}
           </h2>
           <div className="mt-3 h-1 w-16 rounded-full bg-[#5BC5E6]" />

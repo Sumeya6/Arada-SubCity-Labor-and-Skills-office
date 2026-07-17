@@ -9,9 +9,9 @@ const ContactMap = () => {
   const mapData = t("contact.map");
 
   return (
-    <section className="relative left-1/2 right-1/2 mx-[-50vw] w-screen px-4 sm:px-6 lg:px-8 py-12">
+    <section className="relative left-1/2 right-1/2 mx-[-50vw] w-screen px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
       {/* Map Container */}
-      <div className="relative mx-auto h-[600px] w-full overflow-hidden rounded-[28px] border border-[#DCECF7] shadow-lg">
+      <div className="relative mx-auto h-[400px] w-full overflow-hidden rounded-[20px] border border-[#DCECF7] shadow-lg sm:h-[500px] md:h-[600px] sm:rounded-[28px]">
         {/* Embedded Google Map */}
         <iframe
           title={mapData.location_title}
@@ -26,7 +26,7 @@ const ContactMap = () => {
 
         {/* Location Card */}
         <div className="absolute inset-0 flex items-center justify-center px-6">
-          <div className="w-full max-w-sm rounded-[24px] bg-white p-10 text-center shadow-2xl">
+          <div className="mx-4 w-full max-w-sm rounded-[20px] bg-white p-6 text-center shadow-2xl sm:p-10 sm:rounded-[24px]">
             {/* Icon */}
             <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-[#EAF7FD]">
               <FaMapMarkedAlt className="text-5xl text-[#0B5AA8]" />
