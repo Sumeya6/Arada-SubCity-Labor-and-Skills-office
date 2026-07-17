@@ -2,10 +2,17 @@
 @import "tailwindcss";
 
 @layer base {
+  *,
+  *::before,
+  *::after {
+    -webkit-tap-highlight-color: transparent;
+  }
+
   html,
   body,
   #root {
     @apply antialiased text-slate-900;
+    overflow-x: hidden;
   }
 
   html:lang(am),
@@ -28,6 +35,12 @@
   textarea,
   select {
     font-family: inherit;
+  }
+
+  img,
+  video {
+    max-width: 100%;
+    height: auto;
   }
 }
 
