@@ -5,7 +5,7 @@ import Announcements from "./pages/Announcements";
 import Contact from "./pages/Contact";
 // import Services from "./pages/Services";
 import Gallery from "./pages/Gallery";
-import Woreda from "./pages/Woreda";
+// import Woreda from "./pages/Woreda";
 import NotFound from "./pages/NotFound";
 
 function App() {
@@ -14,11 +14,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        {/* <Route path="/services" element={<Services />} /> */}
         <Route path="/announcements" element={<Announcements />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Gallery />} />
-        <Route path="/woreda" element={<Woreda />} />
+        <Route path="/woreda" element={<Home />} />
+        <Route path="/services" element={<Home />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
