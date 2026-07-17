@@ -3,6 +3,7 @@
     "nav": {
       "home": "ዋና ገጽ",
       "about": "ስለ እኛ",
+      "services": "አገልግሎቶች",
       "gallery": "ፎቶ ጋለሪ",
       "announcement": "ማስታወቂያዎች",
       "contact": "ያግኙን",
@@ -151,6 +152,7 @@
     "nav": {
       "home": "Home",
       "about": "About Us",
+      "services": "Services",
       "gallery": "Gallery",
       "announcement": "Announcements",
       "contact": "Contact Us",
