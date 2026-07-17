@@ -2,8 +2,8 @@ import Sidebar from "./Sidebar";
 
 export default function PageLayout({ children }) {
   return (
-    <main className="mx-auto w-full max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-      <div className="grid grid-cols-1 gap-8 lg:grid-cols-12 lg:items-start">
+    <main className="mx-auto w-full max-w-7xl px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
+      <div className="grid grid-cols-1 gap-6 lg:grid-cols-12 lg:items-start lg:gap-8">
         <aside className="order-1 w-full lg:col-span-4 lg:col-start-9 lg:order-2">
           <Sidebar />
         </aside>

@@ -44,7 +44,7 @@ const About = () => {
               <div
                 key={card.id}
                 style={{ animationDelay: `${index * 120}ms` }}
-                className="overflow-hidden rounded-[20px] border border-[#DCECF7] bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md opacity-0 animate-fade-up"
+                className="overflow-hidden rounded-[20px] border border-[#DCECF7] bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md opacity-0 animate-fade-up sm:p-8"
               >
                 <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-[#EAF7FD] text-[#0B5AA8]">
                   <Icon className="text-3xl" />

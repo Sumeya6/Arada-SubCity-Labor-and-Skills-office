@@ -41,8 +41,8 @@ export default function Footer() {
 
   return (
     <footer className="bg-[#1e2d3d] font-sans text-white">
-      <div className="px-6 py-12 md:px-16">
-        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-8 md:grid-cols-4">
+      <div className="px-4 py-10 sm:px-6 md:px-16">
+        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4">
           <section className="space-y-4 text-left">
             <h2 className="text-lg font-bold text-white md:text-xl">
               {t("footer.about_title")}

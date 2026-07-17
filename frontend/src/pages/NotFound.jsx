@@ -10,18 +10,18 @@ const NotFound = () => {
     <main className="min-h-screen bg-slate-50 text-slate-900">
       <Navbar />
       <div className="mx-auto flex min-h-[calc(100vh-15rem)] max-w-6xl flex-col justify-center px-4 py-12 sm:px-6 lg:px-8">
-        <div className="rounded-[32px] border border-slate-200 bg-white p-10 shadow-[0_25px_60px_rgba(15,23,42,0.08)] sm:p-14">
-          <div className="grid gap-10 lg:grid-cols-[auto_1fr] lg:items-center">
-            <div className="flex h-28 w-28 items-center justify-center rounded-[32px] bg-[#0B5AA8]/10 text-[#0B5AA8] shadow-sm">
-              <span className="text-5xl font-semibold">404</span>
+        <div className="rounded-[24px] border border-slate-200 bg-white p-6 shadow-[0_25px_60px_rgba(15,23,42,0.08)] sm:p-10 sm:rounded-[32px] md:p-14">
+          <div className="flex flex-col items-center gap-6 text-center lg:grid lg:grid-cols-[auto_1fr] lg:items-center lg:gap-10 lg:text-left">
+            <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-[24px] bg-[#0B5AA8]/10 text-[#0B5AA8] shadow-sm sm:h-28 sm:w-28 sm:rounded-[32px]">
+              <span className="text-3xl font-semibold sm:text-5xl">404</span>
             </div>
 
-            <div className="space-y-6 text-left">
+            <div className="space-y-6">
               <div className="space-y-3">
                 <p className="text-sm font-semibold uppercase tracking-[0.32em] text-[#0B5AA8]">
                   {t("not_found.status") || "Page not found"}
                 </p>
-                <h1 className="text-4xl font-semibold tracking-tight text-slate-900 sm:text-5xl">
+                <h1 className="text-2xl font-semibold tracking-tight text-slate-900 sm:text-4xl md:text-5xl">
                   {t("not_found.title") ||
                     "We couldn’t find the page you’re looking for."}
                 </h1>

@@ -5,13 +5,13 @@ const ContactCard = ({ item, index }) => {
   return (
     <div
       className={`
-        flex items-start gap-4 p-8 transition-all duration-300 hover:bg-[#F8FCFF]
+        flex items-start gap-4 p-6 transition-all duration-300 hover:bg-[#F8FCFF] sm:p-8
 
-        ${index === 0 ? "border-b border-r border-[#E5EEF6]" : ""}
+        ${index === 0 ? "border-b border-[#E5EEF6] md:border-r" : ""}
 
         ${index === 1 ? "border-b border-[#E5EEF6]" : ""}
 
-        ${index === 2 ? "border-r border-[#E5EEF6]" : ""}
+        ${index === 2 ? "md:border-r border-[#E5EEF6]" : ""}
       `}
     >
       {/* Icon Badge */}
