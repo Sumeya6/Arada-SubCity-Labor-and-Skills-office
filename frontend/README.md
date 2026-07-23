@@ -2,11 +2,8 @@
 
 [![React](https://img.shields.io/badge/React-19.2.7-61DAFB?logo=react&logoColor=black)](#)
 [![Vite](https://img.shields.io/badge/Vite-8.x-646CFF?logo=vite&logoColor=white)](#)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ESM-F7DF1E?logo=javascript&logoColor=black)](#)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4.x-38B2AC?logo=tailwindcss&logoColor=white)](#)
-[![React Router](https://img.shields.io/badge/React%20Router-7.x-CA4245?logo=reactrouter&logoColor=white)](#)
-[![ESLint](https://img.shields.io/badge/ESLint-10.x-4B32C3?logo=eslint&logoColor=white)](#)
-[![Vercel](https://img.shields.io/badge/Vercel-Deployment-black?logo=vercel&logoColor=white)](#)
+[![Status](https://img.shields.io/badge/Status-To%20be%20completed-lightgrey)](#)
+[![License](https://img.shields.io/badge/License-To%20be%20completed-lightgrey)](#)
 
 Public bilingual React frontend for the Arada Sub-City Labour and Skills Office.
 
@@ -216,6 +213,14 @@ No frontend environment variables are currently detected in this codebase. If va
 npm run dev
 ```
 
+## Environment Variables
+
+No frontend environment variables were detected in the current codebase.
+
+| Variable        | Description                                      | Required |
+| --------------- | ------------------------------------------------ | -------- |
+| To be completed | No verified frontend environment variables found | No       |
+
 ## Available Scripts
 
 | Script    | Command           | Description                            |
@@ -374,3 +379,9 @@ Please keep changes aligned with the verified architecture and avoid introducing
 - Replace placeholder or static content with CMS- or API-driven content where needed.
 - Add authenticated admin or staff workflows only if they are required by the product scope.
 - Complete missing frontend environment-variable documentation if runtime configuration is introduced.
+
+## License
+
+MIT License placeholder.
+
+No license file was detected in the current codebase.
