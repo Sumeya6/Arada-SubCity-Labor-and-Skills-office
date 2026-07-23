@@ -7,6 +7,7 @@ import { FiCalendar, FiGlobe } from "react-icons/fi";
 const navItems = [
   { key: "home", path: "/" },
   { key: "about", path: "/about" },
+  { key: "services", path: "/services" },
   { key: "gallery", path: "/gallery" },
   { key: "announcement", path: "/announcements" },
   { key: "contact", path: "/contact" },

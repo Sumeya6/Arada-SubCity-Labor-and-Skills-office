@@ -3,6 +3,7 @@
     "nav": {
       "home": "ዋና ገጽ",
       "about": "ስለ እኛ",
+      "services": "አገልግሎቶች",
       "gallery": "ፎቶ ጋለሪ",
       "announcement": "ማስታወቂያዎች",
       "contact": "ያግኙን",
@@ -89,15 +90,15 @@
     "announcements": {
       "title": "ማስታወቂያዎች",
       "breadcrumb": ["መነሻ", "ማስታወቂያዎች"],
-      "hero_description": "ከአራዳ ክፍለ ከተማ ስራና ክህሎት ቢሮ ለተዘመተ ፕሮግራሞች፣ አገልግሎቶች እና ስራ ዕድሎች መረጃ ይቀበሉ።",
-      "resources_title": "ሰነዶች እና ገገግሬዮች",
+      "hero_description": "ከአራዳ ክፍለ ከተማ ስራና ክህሎት ቢሮ ለተዘጋጁ ፕሮግራሞች፣ አገልግሎቶች እና ስራ ዕድሎች መረጃ ይቀበሉ።",
+      "resources_title": "ሰነዶች እና ምንጮች",
       "download_label": "ሰነድ አውርድ",
       "items": [
         {
           "id": "booklet-2018",
           "title": "የ2018 ዓ.ም ዓላማዎች እና መመዘኛዎች",
           "date": "2018",
-          "description": "ይህ ሰነድ የአራዳ ክፍለ ከተማ ስራና ክህሎት ቢሮ ለዓመቱ 2018 ዓ.ም ዓላማዎች፣ ፖሊሲዎች እና ፕሮግራሞች ይዟል። አሁን ያሉ የስልጠና ፕሮግራሞች እና የስራ ዕድሎች ዓላማዎች ዝርዝር ይጠቀላለሉ።",
+          "description": "ይህ ሰነድ የአራዳ ክፍለ ከተማ ስራና ክህሎት ቢሮ ለዓመቱ 2018 ዓ.ም ዓላማዎች፣ ፖሊሲዎች እና ፕሮግራሞች ይዟል። አሁን ያሉ የስልጠና ፕሮግራሞች እና የስራ ዕድሎች ዓላማዎች ዝርዝር ያካትታል።",
           "filename": "Arada Labor and Skills Booklet.docx"
         }
       ]
@@ -151,6 +152,7 @@
     "nav": {
       "home": "Home",
       "about": "About Us",
+      "services": "Services",
       "gallery": "Gallery",
       "announcement": "Announcements",
       "contact": "Contact Us",
