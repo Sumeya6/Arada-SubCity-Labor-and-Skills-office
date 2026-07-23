@@ -43,10 +43,10 @@ Backend interaction is **to be completed**. The only external integrations curre
 
 ## Live Demo
 
-| Item | URL |
-|------|-----|
-| Frontend URL | To be completed |
-| Backend API URL | To be completed |
+| Item            | URL                                                     |
+| --------------- | ------------------------------------------------------- |
+| Frontend URL    | https://arada-sub-city-labor-and-skills-off.vercel.app/ |
+| Backend API URL | To be completed                                         |
 
 ## Features
 
@@ -193,7 +193,7 @@ State is intentionally lightweight. Global state is limited to language selectio
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Sumeya6/Arada-SubCity-Labor-and-Skills-office.git
 cd Arada-SubCity-Labor-and-Skills-office/frontend
 ```
 
@@ -217,30 +217,30 @@ npm run dev
 
 No frontend environment variables were detected in the current codebase.
 
-| Variable | Description | Required |
-|----------|-------------|----------|
-| To be completed | No verified frontend environment variables found | No |
+| Variable        | Description                                      | Required |
+| --------------- | ------------------------------------------------ | -------- |
+| To be completed | No verified frontend environment variables found | No       |
 
 ## Available Scripts
 
-| Script | Command | Description |
-|--------|---------|-------------|
-| `dev` | `npm run dev` | Starts the Vite development server. |
-| `build` | `npm run build` | Creates a production build in `dist/`. |
-| `preview` | `npm run preview` | Serves the production build locally. |
-| `lint` | `npm run lint` | Runs ESLint across the project. |
+| Script    | Command           | Description                            |
+| --------- | ----------------- | -------------------------------------- |
+| `dev`     | `npm run dev`     | Starts the Vite development server.    |
+| `build`   | `npm run build`   | Creates a production build in `dist/`. |
+| `preview` | `npm run preview` | Serves the production build locally.   |
+| `lint`    | `npm run lint`    | Runs ESLint across the project.        |
 
 ## Routing
 
-| Route | Component | Public/Protected | Description |
-|-------|-----------|------------------|-------------|
-| `/` | `Home` | Public | Landing page with hero content, leadership cards, and videos. |
-| `/about` | `About` | Public | Vision, mission, and values content. |
-| `/announcements` | `Announcements` | Public | Announcement resources and local document download action. |
-| `/contact` | `Contact` | Public | Contact information, message form, and map embed. |
-| `/gallery` | `Gallery` | Public | Image gallery with modal preview. |
-| `/woreda` | `Woreda` | Public | Basic woreda information page. |
-| `*` | `NotFound` | Public | Fallback page for unknown routes. |
+| Route            | Component       | Public/Protected | Description                                                   |
+| ---------------- | --------------- | ---------------- | ------------------------------------------------------------- |
+| `/`              | `Home`          | Public           | Landing page with hero content, leadership cards, and videos. |
+| `/about`         | `About`         | Public           | Vision, mission, and values content.                          |
+| `/announcements` | `Announcements` | Public           | Announcement resources and local document download action.    |
+| `/contact`       | `Contact`       | Public           | Contact information, message form, and map embed.             |
+| `/gallery`       | `Gallery`       | Public           | Image gallery with modal preview.                             |
+| `/woreda`        | `Woreda`        | Public           | Basic woreda information page.                                |
+| `*`              | `NotFound`      | Public           | Fallback page for unknown routes.                             |
 
 No protected routes are implemented in the current frontend.
 
@@ -385,12 +385,3 @@ Please keep changes aligned with the verified architecture and avoid introducing
 MIT License placeholder.
 
 No license file was detected in the current codebase.
-
-## Author
-
-| Field | Value |
-|-------|-------|
-| Name | To be completed |
-| GitHub | To be completed |
-| LinkedIn | To be completed |
-| Email | To be completed |
