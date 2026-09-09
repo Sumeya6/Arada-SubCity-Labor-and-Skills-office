@@ -9,69 +9,266 @@ import img3 from "../assets/Images/gallery 3.jpg";
 import img4 from "../assets/Images/gallery 4.jpg";
 import img5 from "../assets/Images/gallery 5.jpg";
 import img6 from "../assets/Images/gallery 6.jpg";
+import img7 from "../assets/Images/gallery 7.jpg";
+import img8 from "../assets/Images/gallery 8.jpg";
+import img9 from "../assets/Images/gallery 9.jpg";
+import img10 from "../assets/Images/gallery 10.jpg";
+import img11 from "../assets/Images/gallery 11.jpg";
+import img12 from "../assets/Images/gallery 12.jpg";
+import img13 from "../assets/Images/gallery 13.jpg";
+import img14 from "../assets/Images/gallery 14.jpg";
+import img15 from "../assets/Images/gallery 15.jpg";
+import img16 from "../assets/Images/gallery 16.jpg";
+import img17 from "../assets/Images/gallery 17.jpg";
+import img18 from "../assets/Images/gallery 18.jpg";
 
 const galleryItems = [
   {
     id: 1,
     src: img1,
     caption: {
-      am: "የ2018 ዓ.ም የአረንጓዴ አሻራ ችግኝ ተከላ መርሃ ግብር",
-      en: "2018 E.C. Green Legacy Tree Planting Program",
+      am: "የ2018 ዓ.ም የጳጉሜን ቀናት የኢትዮጵያ እሴቶች መርሃ ግብር",
+      en: "2018 E.C. Pagume Days Ethiopian Values Program",
     },
-    date: { am: "ሰኔ ፳፩ ቀን ፳፻፲፰ ዓ.ም.", en: "Jun 21, 2018 E.C." },
+    date: {
+      am: "ጳጉሜን 2018 ዓ.ም.",
+      en: "Pagume 2018 E.C.",
+    },
   },
+
   {
     id: 2,
     src: img2,
     caption: {
-      am: "የአረንጓዴ አሻራ ችግኝ ተከላ የምረቃ ስነ ስርዓት",
-      en: "Green Legacy Planting Closing Ceremony",
+      am: "የጳጉሜን አንደኛ ቀን መርሃ ግብር",
+      en: "First Day of Pagume Program",
     },
-    date: { am: "ሰኔ ፳፩ ቀን ፳፻፲፰ ዓ.ም.", en: "Jun 21, 2018 E.C." },
+    date: {
+      am: "ጳጉሜን 1 ቀን 2018 ዓ.ም.",
+      en: "Pagume 1, 2018 E.C.",
+    },
   },
+
   {
     id: 3,
     src: img3,
     caption: {
-      am: "የአረንጓዴ አሻራ ችግኝ ተከላ እንቅስቃሴ",
-      en: "Green Legacy Tree Planting Activity",
+      am: "የጳጉሜን ሁለተኛ ቀን መርሃ ግብር",
+      en: "Second Day of Pagume Program",
     },
-    date: { am: "ሰኔ ፳፩ ቀን ፳፻፲፰ ዓ.ም.", en: "Jun 21, 2018 E.C." },
+    date: {
+      am: "ጳጉሜን 2 ቀን 2018 ዓ.ም.",
+      en: "Pagume 2, 2018 E.C.",
+    },
   },
+
   {
     id: 4,
     src: img4,
     caption: {
-      am: "የአረንጓዴ አሻራ ችግኝ ተከላ የመክፈቻ ስነ ስርዓት",
-      en: "Green Legacy Planting Opening Ceremony",
+      am: "የጳጉሜን ሦስተኛ ቀን መርሃ ግብር",
+      en: "Third Day of Pagume Program",
     },
-    date: { am: "ሰኔ ፳፩ ቀን ፳፻፲፰ ዓ.ም.", en: "Jun 21, 2018 E.C." },
+    date: {
+      am: "ጳጉሜን 3 ቀን 2018 ዓ.ም.",
+      en: "Pagume 3, 2018 E.C.",
+    },
   },
+
   {
     id: 5,
     src: img5,
     caption: {
-      am: "የአረንጓዴ አሻራ ችግኝ ተከላ ፕሮግራም",
-      en: "Green Legacy Planting Program",
+      am: "የጳጉሜን አራተኛ ቀን መርሃ ግብር",
+      en: "Fourth Day of Pagume Program",
     },
-    date: { am: "ሰኔ ፳፩ ቀን ፳፻፲፰ ዓ.ም.", en: "Jun 21, 2018 E.C." },
+    date: {
+      am: "ጳጉሜን 4 ቀን 2018 ዓ.ም.",
+      en: "Pagume 4, 2018 E.C.",
+    },
   },
+
   {
     id: 6,
     src: img6,
     caption: {
-      am: "የ2018 ዓ.ም የአረንጓዴ አሻራ ችግኝ ተከላ ዝግጅት",
-      en: "2018 E.C. Green Legacy Planting Event",
+      am: "የጳጉሜን አምስተኛ ቀን መርሃ ግብር",
+      en: "Fifth Day of Pagume Program",
     },
-    date: { am: "ሰኔ ፳፩ ቀን ፳፻፲፰ ዓ.ም.", en: "Jun 21, 2018 E.C." },
+    date: {
+      am: "ጳጉሜን 5 ቀን 2018 ዓ.ም.",
+      en: "Pagume 5, 2018 E.C.",
+    },
+  },
+
+  {
+    id: 7,
+    src: img7,
+    caption: {
+      am: "በአራዳ ክፍለ ከተማ የተከናወነ የመንገድ ልማት ሥራ",
+      en: "Road Development Work in Arada Sub-city",
+    },
+    date: {
+      am: "2018 ዓ.ም.",
+      en: "2018 E.C.",
+    },
+  },
+
+  {
+    id: 8,
+    src: img8,
+    caption: {
+      am: "በአራዳ ክፍለ ከተማ የተከናወነ የመንገድ ግንባታ ሥራ",
+      en: "Road Construction Work in Arada Sub-city",
+    },
+    date: {
+      am: "2018 ዓ.ም.",
+      en: "2018 E.C.",
+    },
+  },
+
+  {
+    id: 9,
+    src: img9,
+    caption: {
+      am: "የአራዳ ክፍለ ከተማ የልማት ሥራዎች",
+      en: "Development Works in Arada Sub-city",
+    },
+    date: {
+      am: "2018 ዓ.ም.",
+      en: "2018 E.C.",
+    },
+  },
+
+  {
+    id: 10,
+    src: img10,
+    caption: {
+      am: "በአራዳ ክፍለ ከተማ የተገነቡ የህንፃ ፕሮጀክቶች",
+      en: "Building Construction Projects in Arada Sub-city",
+    },
+    date: {
+      am: "2018 ዓ.ም.",
+      en: "2018 E.C.",
+    },
+  },
+
+  {
+    id: 11,
+    src: img11,
+    caption: {
+      am: "የአራዳ ክፍለ ከተማ የከተማ ልማት ሥራዎች",
+      en: "Urban Development Works in Arada Sub-city",
+    },
+    date: {
+      am: "2018 ዓ.ም.",
+      en: "2018 E.C.",
+    },
+  },
+
+  {
+    id: 12,
+    src: img12,
+    caption: {
+      am: "በአራዳ ክፍለ ከተማ የተከናወኑ የመሠረተ ልማት ሥራዎች",
+      en: "Infrastructure Development Works in Arada Sub-city",
+    },
+    date: {
+      am: "2018 ዓ.ም.",
+      en: "2018 E.C.",
+    },
+  },
+
+  {
+    id: 13,
+    src: img13,
+    caption: {
+      am: "የአራዳ ክፍለ ከተማ የመንገድና የአካባቢ ልማት ሥራዎች",
+      en: "Road and Urban Development Works in Arada Sub-city",
+    },
+    date: {
+      am: "2018 ዓ.ም.",
+      en: "2018 E.C.",
+    },
+  },
+
+  {
+    id: 14,
+    src: img14,
+    caption: {
+      am: "በአራዳ ክፍለ ከተማ የተከናወነ የህንፃ ግንባታ ሥራ",
+      en: "Building Construction Work in Arada Sub-city",
+    },
+    date: {
+      am: "2018 ዓ.ም.",
+      en: "2018 E.C.",
+    },
+  },
+
+  {
+    id: 15,
+    src: img15,
+    caption: {
+      am: "የአራዳ ክፍለ ከተማ የከተማ መሠረተ ልማት ሥራዎች",
+      en: "Urban Infrastructure Development in Arada Sub-city",
+    },
+    date: {
+      am: "2018 ዓ.ም.",
+      en: "2018 E.C.",
+    },
+  },
+
+  {
+    id: 16,
+    src: img16,
+    caption: {
+      am: "የአራዳ ክፍለ ከተማ የልማት ፕሮጀክት",
+      en: "Development Project in Arada Sub-city",
+    },
+    date: {
+      am: "2018 ዓ.ም.",
+      en: "2018 E.C.",
+    },
+  },
+
+  {
+    id: 17,
+    src: img17,
+    caption: {
+      am: "በአራዳ ክፍለ ከተማ የተገነቡ የከተማ ልማት ፕሮጀክቶች",
+      en: "Urban Development Projects in Arada Sub-city",
+    },
+    date: {
+      am: "2018 ዓ.ም.",
+      en: "2018 E.C.",
+    },
+  },
+
+  {
+    id: 18,
+    src: img18,
+    caption: {
+      am: "የአራዳ ክፍለ ከተማ የግንባታና የልማት ውጤቶች",
+      en: "Construction and Development Achievements of Arada Sub-city",
+    },
+    date: {
+      am: "2018 ዓ.ም.",
+      en: "2018 E.C.",
+    },
   },
 ];
 
 function GalleryPage() {
   const { t, language } = useLanguage();
   const [activeId, setActiveId] = useState(null);
+  const [currentPage, setCurrentPage] = useState(1);
+  const ITEMS_PER_PAGE = 6;
 
   const activeItem = galleryItems.find((item) => item.id === activeId) ?? null;
+  const totalPages = Math.ceil(galleryItems.length / ITEMS_PER_PAGE);
+  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+  const endIndex = startIndex + ITEMS_PER_PAGE;
+  const currentItems = galleryItems.slice(startIndex, endIndex);
   const close = useCallback(() => setActiveId(null), []);
 
   useEffect(() => {
@@ -107,7 +304,7 @@ function GalleryPage() {
           </div>
 
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {galleryItems.map((item) => (
+            {currentItems.map((item) => (
               <button
                 key={item.id}
                 type="button"
@@ -131,6 +328,54 @@ function GalleryPage() {
               </button>
             ))}
           </div>
+
+          <nav
+            className="mt-8 flex items-center justify-center gap-2"
+            aria-label="Gallery pagination"
+          >
+              <button
+                type="button"
+                onClick={() =>
+                  setCurrentPage((page) => Math.max(1, page - 1))
+                }
+                disabled={currentPage === 1}
+                aria-label="Previous page"
+                className="inline-flex h-9 min-w-9 items-center justify-center rounded-md border border-slate-200 bg-white px-2 text-lg text-[#0B5DA7] transition hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-40"
+              >
+                &#8249;
+              </button>
+
+              {Array.from({ length: totalPages }, (_, index) => index + 1).map(
+                (page) => (
+                  <button
+                    key={page}
+                    type="button"
+                    onClick={() => setCurrentPage(page)}
+                    aria-label={`Page ${page}`}
+                    aria-current={currentPage === page ? "page" : undefined}
+                    className={`inline-flex h-9 min-w-9 items-center justify-center rounded-md border px-3 text-sm font-semibold transition ${
+                      currentPage === page
+                        ? "border-[#0B5DA7] bg-[#0B5DA7] text-white"
+                        : "border-slate-200 bg-white text-[#0B5DA7] hover:bg-slate-50"
+                    }`}
+                  >
+                    {page}
+                  </button>
+                ),
+              )}
+
+              <button
+                type="button"
+                onClick={() =>
+                  setCurrentPage((page) => Math.min(totalPages, page + 1))
+                }
+                disabled={currentPage === totalPages}
+                aria-label="Next page"
+                className="inline-flex h-9 min-w-9 items-center justify-center rounded-md border border-slate-200 bg-white px-2 text-lg text-[#0B5DA7] transition hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-40"
+              >
+                &#8250;
+              </button>
+          </nav>
         </div>
       </PageLayout>
 
