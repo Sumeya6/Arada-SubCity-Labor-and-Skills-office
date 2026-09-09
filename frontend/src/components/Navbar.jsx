@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logoLeft from "../assets/Images/logo.jpg";
+// import logoLeft from "../assets/Images/logo.jpg";
 import logoRight from "../assets/Images/logo2.jpg";
 import { useLanguage } from "../context/LanguageContext";
 import { FiCalendar, FiGlobe } from "react-icons/fi";
@@ -11,7 +11,7 @@ const navItems = [
   { key: "gallery", path: "/gallery" },
   { key: "announcement", path: "/announcements" },
   { key: "contact", path: "/contact" },
-  { key: "woreda", path: "/woreda" },
+  { key: "woreda", path: "/office" },
 ];
 
 function formatDate(language) {
@@ -51,7 +51,7 @@ export default function Navbar() {
           <div className="flex justify-center lg:justify-start">
             <img
               src={logoRight}
-              alt="Arada Sub-City logo"
+              alt="Arada Sub-city Administration logo"
               className="h-16 w-16 object-contain sm:h-24 sm:w-24 lg:h-28 lg:w-28"
             />
           </div>
@@ -65,13 +65,13 @@ export default function Navbar() {
             </p>
           </div>
 
-          <div className="flex justify-center lg:justify-end">
+          {/* <div className="flex justify-center lg:justify-end">
             <img
               src={logoLeft}
               alt="Addis Ababa City Administration logo"
               className="h-16 w-16 object-contain sm:h-24 sm:w-24 lg:h-28 lg:w-28"
             />
-          </div>
+          </div> */}
         </div>
       </div>
 

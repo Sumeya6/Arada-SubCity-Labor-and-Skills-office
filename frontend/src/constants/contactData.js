@@ -18,7 +18,7 @@ export const contactCards = [
     title: "አድራሻ",
     icon: FaLocationDot,
     description:
-      "አራዳ ክፍለ ከተማ ሠራተኛና ክህሎት ጽሕፈት ቤት\nአዲስ አበባ፣ ኢትዮጵያ",
+      "የአራዳ ክ/ከተማ አስተዳደር\nአዲስ አበባ፣ ኢትዮጵያ",
   },
   {
     title: "ስልክ",
