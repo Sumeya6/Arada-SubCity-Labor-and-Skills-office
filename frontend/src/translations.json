@@ -9,16 +9,16 @@
       "contact": "ያግኙን",
       "woreda": "ወረዳ"
     },
-    "title": "የአራዳ ክ/ከተማ ስራና ክህሎት ጽ/ቤት",
+    "title": "የአራዳ ክ/ከተማ አስተዳደር",
     "about": {
       "title": "ስለ እኛ",
       "vision": {
         "title": "ራዕይ",
-        "description": "በአዲስ አበባ ከተማ አስተዳደር በ2022 ዓ.ም ብቁና ተወዳዳሪ የሰው ኃይል በማፍራት ምቹ የስራ ሁኔታ የተረጋገጠበት ዘላቂ የስራ ዕድል ተፈጥሮ ማየት፡፡"
+        "description": "በአራዳ ክ/ከተማ ለሚኖሩ ነዋሪዎች የተሻለ የህዝብ አገልግሎትና ምቹ የኑሮ ሁኔታ የተረጋገጠበትን ክ/ከተማ መገንባት፡፡"
       },
       "mission": {
         "title": "ተልዕኮ",
-        "description": "ክህሎት መር የውጤት ተኮር የስልጠና ስርዓት በመዘርጋት ብቁ ተወዳዳሪና ስራ ፈጣሪ የሰው ኃይል በማፍራት፣ለኢንተርፕራይዞች ድጋፍ በማድረግ ማልማት እንዲሁም ውጤታማ የሆነ የስራ ስምሪት አገልግሎት በመስጠትና የኢንዱስትሪውን ሰላም በማረጋገጥ፣በዝቅተኛ የኑሮ ደረጃ ላይ የሚገኙ ነዋሪዎችን ኑሮ በማሻሻል፣ የአሰሪና ሰራተኛ ግንኙነትን ጤናማ በማድረግ፣የስራ አጥ ቁጥር ለመቀነስ የሚያስችል ተቋም በመገንባት፣ ዘላቂ የስራ እድል እንዲፈጠር ማድረግ።"
+        "description": "ተጠያቂነትና ግልጽነትን በመጠበቅ ለነዋሪዎች ውጤታማ፣ ተደራሽና ጥራት ያለው የመንግስት አገልግሎት መስጠት፣ የክ/ከተማውን ልማት ማስተባበርና የህዝብን ተሳትፎ ማጠናከር።"
       },
       "values": {
         "title": "እሴቶች",
@@ -42,7 +42,7 @@
       "cards": {
         "address": {
           "title": "አድራሻ",
-          "description": "አራዳ ክፍለ ከተማ ሠራተኛና ክህሎት ጽሕፈት ቤት\nአዲስ አበባ፣ ኢትዮጵያ"
+          "description": "የአራዳ ክ/ከተማ አስተዳደር\nአዲስ አበባ፣ ኢትዮጵያ"
         },
         "phone": {
           "title": "ስልክ",
@@ -83,14 +83,14 @@
       },
       "map": {
         "location_title": "የመገኛ ቦታ",
-        "location_description": "የአራዳ ክፍለ ከተማ\nሥራና ክህሎት ቢሮ",
+        "location_description": "የአራዳ ክ/ከተማ አስተዳደር",
         "open_map": "ጉግል ካርታ ላይ ክፈት"
       }
     },
     "announcements": {
       "title": "ማስታወቂያዎች",
       "breadcrumb": ["መነሻ", "ማስታወቂያዎች"],
-      "hero_description": "ከአራዳ ክፍለ ከተማ ስራና ክህሎት ቢሮ ለተዘጋጁ ፕሮግራሞች፣ አገልግሎቶች እና ስራ ዕድሎች መረጃ ይቀበሉ።",
+      "hero_description": "ከአራዳ ክ/ከተማ አስተዳደር ስለሚሰጡ የህዝብ አገልግሎቶችና መረጃዎች ይከታተሉ።",
       "resources_title": "ሰነዶች እና ምንጮች",
       "download_label": "ሰነድ አውርድ",
       "items": [
@@ -98,14 +98,14 @@
           "id": "booklet-2018",
           "title": "የ2018 ዓ.ም ዓላማዎች እና መመዘኛዎች",
           "date": "2018",
-          "description": "ይህ ሰነድ የአራዳ ክፍለ ከተማ ስራና ክህሎት ቢሮ ለዓመቱ 2018 ዓ.ም ዓላማዎች፣ ፖሊሲዎች እና ፕሮግራሞች ይዟል። አሁን ያሉ የስልጠና ፕሮግራሞች እና የስራ ዕድሎች ዓላማዎች ዝርዝር ያካትታል።",
+          "description": "ይህ ሰነድ የአራዳ ክ/ከተማ አስተዳደር የ2018 ዓ.ም ዓላማዎችን፣ ፖሊሲዎችንና ፕሮግራሞችን ይዟል።",
           "filename": "Arada Labor and Skills Booklet.docx"
         }
       ]
     },
     "footer": {
-      "about_title": "የአራዳ ክፍለ ከተማ ጽሕፈት ቤት",
-      "about_description": "የዜጎችን የሥራና ክህሎት እድል ለማስፋት እንዲሁም ውጤታማ የኢንዱስትሪ ልማት እንዲኖር በትጋት እንሰራለን::",
+      "about_title": "የአራዳ ክ/ከተማ አስተዳደር",
+      "about_description": "ለአራዳ ክ/ከተማ ነዋሪዎች ተደራሽና ውጤታማ የህዝብ አገልግሎት ለመስጠት በትጋት እንሰራለን።",
       "contact_title": "ያግኙን",
       "address": "አዲስ አበባ፣ አራዳ ክፍለ ከተማ፣ ማዘጋጃ ቤት አቅራቢያ",
       "phone": "+251 11 123 4567 / +251 11 123 4568",
@@ -121,30 +121,30 @@
     "sidebar": {
       "search_title": "መረጃ ይፈልጉ",
       "search_placeholder": "ፈልግ...",
-      "profile_title": "ስለ ጽሕፈት ቤቱ",
-      "profile_description": "የአራዳ ክፍለ ከተማ የሥራና ክህሎት ጽሕፈት ቤት በክፍለ ከተማው የሚገኙ ዜጎችን የሥራ ዕድል ተጠቃሚ ለማድረግ እና የክህሎት አቅማቸውን ለማሳደግ በቁርጠኝነት ይሠራል::",
+      "profile_title": "ስለ አስተዳደሩ",
+      "profile_description": "የአራዳ ክ/ከተማ አስተዳደር ለነዋሪዎች የህዝብ አገልግሎቶችን በተሻለ ሁኔታ ለማቅረብ በቁርጠኝነት ይሠራል።",
       "read_more": "ተጨማሪ ያንብቡ"
     },
     "home": {
       "hero_tag": "እንኳን በደህና መጡ",
-      "hero_heading": "ወደ አራዳ ክፍለ ከተማ ስራና ክህሎት ጽ/ቤት ይፋዊ ድረ-ገጽ እንኳን በደህና መጡ::",
+      "hero_heading": "ወደ የአራዳ ክ/ከተማ አስተዳደር ይፋዊ ድረ-ገጽ እንኳን በደህና መጡ::",
       "leadership_tag": "አመራር",
-      "leadership_title": "የአራዳ ክፍለ ከተማ ስራና ክህሎት ጽ/ቤት አመራር",
+      "leadership_title": "የአራዳ ክ/ከተማ አስተዳደር አመራር",
       "leaders": {
         "abdi_name": "አቶ አብዲ ሙሉነህ",
-        "abdi_title": "የአራዳ ክፍለ ከተማ አስተዳደር ምክትል ዋና ስራ አስፈፃሚና የስራና ክህሎት ፅ/ቤት ኃላፊ",
-        "abdi_quote": "የዜጎችን የስራ ዕድል ተጠቃሚነት ለማረጋገጥና የክህሎት አቅማቸውን ለማሳደግ በቁርጠኝነት እንሰራለን።",
+        "abdi_title": "የአራዳ ክ/ከተማ አስተዳደር ምክትል ዋና ስራ አስፈፃሚ",
+        "abdi_quote": "የአራዳ ክ/ከተማ ነዋሪዎች የተሻለ የህዝብ አገልግሎት እንዲያገኙ በቁርጠኝነት እንሰራለን።",
         "sofonias_name": "አቶ ሶፎንያስ ቦጋሌ",
-        "sofonias_title": "የአራዳ ክፍለ ከተማ ስራና ክህሎት ፅ/ቤት ምክትል ኃላፊ",
+        "sofonias_title": "የአራዳ ክ/ከተማ አስተዳደር ምክትል ኃላፊ",
         "sofonias_quote": "ዘመናዊ አሰራርን በመከተል የኢንዱስትሪ ሰላምን ማስፈንና ምርታማነትን ማሳደግ ቀዳሚ ተግባራችን ነው።"
       },
       "videos_title": "የቪዲዮ መረጃዎች",
       "video_1_title": "የአራዳ ክፍለ ከተማ እይታ",
-      "video_2_title": "የስራና ክህሎት እንቅስቃሴ"
+      "video_2_title": "የአስተዳደሩ እንቅስቃሴ"
     },
     "gallery": {
       "tag": "ፎቶ ጋለሪ",
-      "title": "የሥራና ክህሎት ጽ/ቤት እንቅስቃሴዎች በምስል",
+      "title": "የአራዳ ክ/ከተማ አስተዳደር እንቅስቃሴዎች በምስል",
       "close": "ዝጋ"
     }
   },
@@ -158,16 +158,16 @@
       "contact": "Contact Us",
       "woreda": "Woreda"
     },
-    "title": "Arada sub-city Labor and Skills office",
+    "title": "Arada Sub-city Administration",
     "about": {
       "title": "About Us",
       "vision": {
         "title": "Vision",
-        "description": "To create a skilled workforce that drives sustainable economic development and improves the quality of life for all citizens in Arada Sub-City through quality training and job placement services."
+        "description": "To build an inclusive and well-served Arada Sub-city where residents benefit from accessible public services and improved quality of life."
       },
       "mission": {
         "title": "Mission",
-        "description": "We are committed to empowering citizens through quality skills training, creating employment opportunities, and promoting productive engagement in the labor market for sustainable development."
+        "description": "We are committed to providing accountable, accessible, and effective government services while coordinating the sub-city's development and community participation."
       },
       "values": {
         "title": "Values",
@@ -191,7 +191,7 @@
       "cards": {
         "address": {
           "title": "Address",
-          "description": "Arada Sub-City Labour and Skills Office\nAddis Ababa, Ethiopia"
+          "description": "Arada Sub-city Administration\nAddis Ababa, Ethiopia"
         },
         "phone": {
           "title": "Phone",
@@ -232,14 +232,14 @@
       },
       "map": {
         "location_title": "Location",
-        "location_description": "Arada Sub-City Labour and Skills Office",
+        "location_description": "Arada Sub-city Administration",
         "open_map": "Open in Google Maps"
       }
     },
     "announcements": {
       "title": "Announcements",
       "breadcrumb": ["Home", "Announcements"],
-      "hero_description": "Receive updates on programs, services, and job opportunities from Arada Sub-City Labour and Skills Office.",
+      "hero_description": "Receive updates about public services, programs, and announcements from Arada Sub-city Administration.",
       "resources_title": "Documents and Resources",
       "download_label": "Download Document",
       "items": [
@@ -247,14 +247,14 @@
           "id": "booklet-2018",
           "title": "2018 Goals and Guidelines",
           "date": "2018",
-          "description": "This document contains the 2018 goals, policies, and programs of the Arada Sub-City Labour and Skills Office.",
+          "description": "This document contains the 2018 goals, policies, and programs of Arada Sub-city Administration.",
           "filename": "Arada Labor and Skills Booklet.docx"
         }
       ]
     },
     "footer": {
-      "about_title": "Arada Sub-City Labour and Skills Office",
-      "about_description": "We work to expand employment and skills opportunities for citizens and support sustainable industry growth.",
+      "about_title": "Arada Sub-city Administration",
+      "about_description": "We work to provide accessible and effective public services for the residents of Arada Sub-city.",
       "contact_title": "Contact Us",
       "address": "Addis Ababa, Arada Sub-City, Preparatory House Area",
       "phone": "+251 11 123 4567 / +251 11 123 4568",
@@ -270,30 +270,30 @@
     "sidebar": {
       "search_title": "Search Content",
       "search_placeholder": "Search...",
-      "profile_title": "About the Office",
-      "profile_description": "Arada Sub-City Labour and Skills Office works to make job opportunities more accessible and improve citizens' skillsets across the sub-city.",
+      "profile_title": "About the Administration",
+      "profile_description": "Arada Sub-city Administration works to provide accessible public services and support the well-being of residents across the sub-city.",
       "read_more": "Read More"
     },
     "home": {
       "hero_tag": "Welcome",
-      "hero_heading": "Welcome to the Arada Sub-City Labour and Skills Office official website.",
+      "hero_heading": "Welcome to the official website of Arada Sub-city Administration.",
       "leadership_tag": "Leadership",
-      "leadership_title": "Leadership of the Arada Sub-City Labour and Skills Office",
+      "leadership_title": "Leadership of Arada Sub-city Administration",
       "leaders": {
         "abdi_name": "Mr. Abdi Muluneh",
-        "abdi_title": "Deputy City Administrator and Head of Labour and Skills Office",
-        "abdi_quote": "We work diligently to ensure citizens benefit from employment opportunities and that their skills are developed.",
+        "abdi_title": "Deputy City Administrator",
+        "abdi_quote": "We work diligently to ensure residents receive accessible and effective public services.",
         "sofonias_name": "Mr. Sofonias Bogale",
-        "sofonias_title": "Deputy Head of the Labour and Skills Office",
+        "sofonias_title": "Deputy Administrator",
         "sofonias_quote": "Our priority is fostering peace and productivity through modern processes."
       },
       "videos_title": "Video Resources",
       "video_1_title": "Arada Sub-City Overview",
-      "video_2_title": "Labour and Skills Activities"
+      "video_2_title": "Administration Activities"
     },
     "gallery": {
       "tag": "Photo Gallery",
-      "title": "Labour and Skills Office Activities in Pictures",
+      "title": "Arada Sub-city Administration Activities in Pictures",
       "close": "Close"
     }
   }

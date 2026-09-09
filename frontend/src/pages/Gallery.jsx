@@ -70,8 +70,14 @@ const galleryItems = [
 function GalleryPage() {
   const { t, language } = useLanguage();
   const [activeId, setActiveId] = useState(null);
+  const [currentPage, setCurrentPage] = useState(1);
+  const ITEMS_PER_PAGE = 6;
 
   const activeItem = galleryItems.find((item) => item.id === activeId) ?? null;
+  const totalPages = Math.ceil(galleryItems.length / ITEMS_PER_PAGE);
+  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+  const endIndex = startIndex + ITEMS_PER_PAGE;
+  const currentItems = galleryItems.slice(startIndex, endIndex);
   const close = useCallback(() => setActiveId(null), []);
 
   useEffect(() => {
@@ -107,7 +113,7 @@ function GalleryPage() {
           </div>
 
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {galleryItems.map((item) => (
+            {currentItems.map((item) => (
               <button
                 key={item.id}
                 type="button"
@@ -131,6 +137,54 @@ function GalleryPage() {
               </button>
             ))}
           </div>
+
+          <nav
+            className="mt-8 flex items-center justify-center gap-2"
+            aria-label="Gallery pagination"
+          >
+              <button
+                type="button"
+                onClick={() =>
+                  setCurrentPage((page) => Math.max(1, page - 1))
+                }
+                disabled={currentPage === 1}
+                aria-label="Previous page"
+                className="inline-flex h-9 min-w-9 items-center justify-center rounded-md border border-slate-200 bg-white px-2 text-lg text-[#0B5DA7] transition hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-40"
+              >
+                &#8249;
+              </button>
+
+              {Array.from({ length: totalPages }, (_, index) => index + 1).map(
+                (page) => (
+                  <button
+                    key={page}
+                    type="button"
+                    onClick={() => setCurrentPage(page)}
+                    aria-label={`Page ${page}`}
+                    aria-current={currentPage === page ? "page" : undefined}
+                    className={`inline-flex h-9 min-w-9 items-center justify-center rounded-md border px-3 text-sm font-semibold transition ${
+                      currentPage === page
+                        ? "border-[#0B5DA7] bg-[#0B5DA7] text-white"
+                        : "border-slate-200 bg-white text-[#0B5DA7] hover:bg-slate-50"
+                    }`}
+                  >
+                    {page}
+                  </button>
+                ),
+              )}
+
+              <button
+                type="button"
+                onClick={() =>
+                  setCurrentPage((page) => Math.min(totalPages, page + 1))
+                }
+                disabled={currentPage === totalPages}
+                aria-label="Next page"
+                className="inline-flex h-9 min-w-9 items-center justify-center rounded-md border border-slate-200 bg-white px-2 text-lg text-[#0B5DA7] transition hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-40"
+              >
+                &#8250;
+              </button>
+          </nav>
         </div>
       </PageLayout>
 

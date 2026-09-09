@@ -1,11 +1,11 @@
-# Arada Sub-City Labour and Skills Office Frontend
+# Arada Sub-city Administration Frontend
 
 [![React](https://img.shields.io/badge/React-19.2.7-61DAFB?logo=react&logoColor=black)](#)
 [![Vite](https://img.shields.io/badge/Vite-8.x-646CFF?logo=vite&logoColor=white)](#)
 [![Status](https://img.shields.io/badge/Status-To%20be%20completed-lightgrey)](#)
 [![License](https://img.shields.io/badge/License-To%20be%20completed-lightgrey)](#)
 
-Public bilingual React frontend for the Arada Sub-City Labour and Skills Office.
+Public bilingual React frontend for Arada Sub-city Administration.
 
 ## Table of Contents
 
@@ -35,7 +35,7 @@ Public bilingual React frontend for the Arada Sub-City Labour and Skills Office.
 
 ## Overview
 
-This repository contains the frontend application for the Arada Sub-City Labour and Skills Office. It is a public information site that presents office details, leadership content, announcements, a photo gallery, contact information, and a simple woreda page in Amharic and English.
+This repository contains the frontend application for Arada Sub-city Administration. It is a public information site that presents administration details, leadership content, announcements, a photo gallery, contact information, and a simple woreda page in Amharic and English.
 
 The primary users are citizens, job seekers, visitors, and anyone looking for office information or contact details. The application currently behaves as a mostly static, client-rendered frontend. It does not contain a verified backend API client, authentication system, or admin dashboard in the current codebase.
 

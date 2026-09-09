@@ -15,7 +15,7 @@ const ContactMap = () => {
         {/* Embedded Google Map */}
         <iframe
           title={mapData.location_title}
-          src="https://www.google.com/maps?q=Arada%20Sub-City%20Labor%20and%20Skills%20Office%2C%20Addis%20Ababa%2C%20Ethiopia&output=embed"
+          src="https://www.google.com/maps?q=Arada%20Sub-city%20Administration%2C%20Addis%20Ababa%2C%20Ethiopia&output=embed"
           className="absolute inset-0 h-full w-full"
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
@@ -51,7 +51,7 @@ const ContactMap = () => {
 
             {/* Google Maps Link Button */}
             <a
-              href="https://maps.google.com/?q=Arada%20Sub-City%20Labor%20and%20Skills%20Office%20Addis%20Ababa"
+              href="https://maps.google.com/?q=Arada%20Sub-city%20Administration%20Addis%20Ababa"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-8 inline-flex items-center gap-2 rounded-xl bg-[#0B5AA8] px-7 py-3 font-semibold text-white transition duration-300 hover:bg-[#143B69]"
