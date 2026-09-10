@@ -1,9 +1,11 @@
+
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import PageLayout from "../components/PageLayout";
 import { FiCalendar, FiFileText } from "react-icons/fi";
 import { useLanguage } from "../context/LanguageContext";
-import aradaParkVideo from "../assets/videos/የአራዳ ፓርክ ምርቃት ሥነስርዓት.mp4";
+// Local video is no longer needed.
+// import aradaParkVideo from "../assets/videos/የአራዳ ፓርክ ምርቃት ሥነስርዓት.mp4";
 
 const Announcements = () => {
   const { t } = useLanguage();
@@ -14,6 +16,7 @@ const Announcements = () => {
   return (
     <main className="min-h-screen bg-[#F6FAFD] text-[#2F3E46]">
       <Navbar />
+
       <PageLayout>
         <div className="space-y-8">
           {/* Hero Section */}
@@ -22,6 +25,7 @@ const Announcements = () => {
               <h1 className="mb-4 text-3xl font-bold text-[#143B69] sm:text-4xl">
                 {announcementData.title}
               </h1>
+
               <p className="text-[15px] leading-7 text-[#4B5563]">
                 {announcementData.hero_description}
               </p>
@@ -38,6 +42,7 @@ const Announcements = () => {
                 <span className="inline-flex items-center rounded-full bg-[#0B5AA8] px-4 py-1.5 text-sm font-semibold text-white">
                   {announcementData.featured_title}
                 </span>
+
                 {featuredItem.category && (
                   <span className="inline-flex items-center rounded-full bg-[#EAF7FD] px-3 py-1 text-sm font-medium text-[#0B5AA8]">
                     {featuredItem.category}
@@ -45,16 +50,18 @@ const Announcements = () => {
                 )}
               </div>
 
+              {/* YouTube Video */}
               {featuredItem.video && (
                 <div className="mb-6 overflow-hidden rounded-[20px]">
-                  <video
-                    controls
-                    className="w-full aspect-video object-cover rounded-[20px]"
-                    poster=""
-                  >
-                    <source src={aradaParkVideo} type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
+                  <div className="relative aspect-video w-full">
+                    <iframe
+                      className="absolute inset-0 h-full w-full rounded-[20px]"
+                      src="https://www.youtube.com/embed/HD1RKx-bb-A"
+                      title="Arada Park Inauguration Ceremony"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowFullScreen
+                    />
+                  </div>
                 </div>
               )}
 
@@ -63,9 +70,11 @@ const Announcements = () => {
                   <FiCalendar className="mr-2 text-base" />
                   {featuredItem.date}
                 </div>
+
                 <h2 className="text-2xl font-bold text-[#143B69]">
                   {featuredItem.title}
                 </h2>
+
                 <p className="text-[15px] leading-7 text-[#4B5563]">
                   {featuredItem.description}
                 </p>
@@ -84,9 +93,11 @@ const Announcements = () => {
                   <FiFileText className="h-8 w-8 text-[#0B5AA8]" />
                 </div>
               </div>
+
               <h3 className="mt-4 text-lg font-semibold text-[#143B69]">
                 {announcementData.no_announcements}
               </h3>
+
               <p className="mt-2 text-[15px] text-[#4B5563]">
                 {announcementData.check_back_soon}
               </p>
@@ -94,6 +105,7 @@ const Announcements = () => {
           )}
         </div>
       </PageLayout>
+
       <Footer />
     </main>
   );
